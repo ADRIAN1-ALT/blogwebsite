@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex h-[100vh]">
+        <aside class="bg-white p-4 w-[20%]">
+            <h3 class="text-2xl font-bold p-2 mb-3 border border-b"> Dashboard </h3>
+            <div>
+                <a href="Category.html" class="p-4 hover:text-blue-500 hover:text-[2rem] block"> Category </a>
+                <a href="News.html" class="p-4 hover:text-green-400 hover:text-[2rem] block"> News </a>
+                <a href="" class="p-4 hover:text-yellow-400 hover:text-[2rem] block"> Logout </a>
+                <a href="" class="p-4 hover:text-red-800 hover:text-[2rem] block"> Your Profile </a>
+            </div>
+        </aside>
+        <main class="w-[80%]">
+            <h2 class="text-2xl  font-bold p-4 mb-3"> Category Dashboard </h2>
+            <div class="bg-white p-4 shadow-lg rounded-lg w-full">
+                <h3 class="text-2xl font-bold mb-3"> Add New Category </h3>
+                <form action="" class="flex gap-3">
+                    <input type="text" name="" class="w-full border p-2 border-gray-300"
+                        placeholder="Enter Category Name">
+                    <button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Add </button>
+                    <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Remove </button>
+
+                </form>
+
+                <table class="w-full table-auto border-collapse">
+                    <thead>
+                        <tr class="bg-gray-200 text-left">
+
+                            <th class="px-4 py-2 border"> S.No</th>
+                            <th class="px-4 py-2 border"> Category Name </th>
+                            <th class="px-4 py-2 border"> Action </th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-2 border"> 1 </td>
+                            <td class="px-4 py-2 border"> Sports </td>
+                            <td class="py-2 px-4 border"><button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Edit </button>
+                                <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Delete </button>
+                            </td>
+
+
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td class="py-2 px-4 border"> 2 </td>
+                        <td class="py-2 px-4 border"> Football </td>
+                        <td class="py-2 px-4 border"><button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Edit </button>
+                            <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Delete </button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border"> 3</td>
+                        <td class="py-2 px-4 border"> Basketball </td>
+                        <td class="py-2 px-4 border"><button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Edit </button>
+                            <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Delete </button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border"> 4 </td>
+                        <td class="py-2 px-4 border"> Cricket </td>
+                        <td class="py-2 px-4 border"><button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Edit </button>
+                            <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Delete </button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border"> 5 </td>
+                        <td class="py-2 px-4 border"> Baseball </td>
+                        <td class="py-2 px-4 border"><button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Edit </button>
+                            <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Delete </button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="py-2 px-4 border"> 6 </td>
+                        <td class="py-2 px-4 border"> Badminton </td>
+                        <td class="py-2 px-4 border"><button class="bg-blue-400 text-white p-2 hover:bg-blue-500"> Edit </button>
+                            <button class="bg-red-600 text-white p-2 hover:bg-red-500 "> Delete </button>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

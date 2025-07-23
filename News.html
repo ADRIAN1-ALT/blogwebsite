@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<style>
+    .form {
+        display: flex;
+    }
+</style>
+
+<body class="bg-gray-100">
+    <div class="flex h-[100vh]">
+        <aside class="bg-white p-4 w-[20%]">
+            <h3 class="text-2xl font-bold p-2 mb-3 border border-b"> Dashboard </h3>
+            <div>
+                <a href="" class="p-4 hover:text-blue-500 hover:text-[2rem] block"> Category </a>
+                <a href="News.html" class="p-4 hover:text-green-400 hover:text-[2rem] block"> News </a>
+                <a href="" class="p-4 hover:text-yellow-400 hover:text-[2rem] block"> Logout </a>
+                <a href="" class="p-4 hover:text-red-800 hover:text-[2rem] block"> Your Profile </a>
+            </div>
+        </aside>
+        <main class="w-[80%]">
+
+            <div class="bg-white p-4  rounded-lg w-full">
+                <h3 class="text-2xl font-bold mb-3"> Add News </h3>
+                <form action="" class="flex gap-3">
+                    <strong>Title:</strong><input type="text" name="" class="w-fit border p-2 border-gray-300"
+                        placeholder="Add News Title">
+
+
+
+
+                </form>
+                <form action="" class="flex gap-3">
+                    <strong>Desctiption </strong><input type="text" name="" class="w-fit border p-6 border-gray-300 mb-2"
+                        placeholder="Enter Category Name"><br>
+                </form>
+
+                <form action="News.html">
+                    <h3 class="p-2"> <b>Category:</b></h3>
+                    <label for="Category w-full shadow-lg"></label>
+                   
+                    <form> <input type="search" class="w-full border bg-gray-300 p-2"></form> <select name="" id=""></select>
+                    
+                        
+                    </select>
+                    <br><br>
+                    
+                </form>
+
+                <form action="" class="w-full ">
+                 <b> Upload Image:</b><br><br> <input type="file" placeholder="No File Selected."  class="w-full">
+                  <button class="btn p-2 text-white bg-blue-800 rounded-xl" >Add News</button>
+                </form>
+
+                <h4 class="p-2"> <b>News List</b> </h4>
+               
+
+
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
